@@ -78,3 +78,49 @@ footer p{
 	color:white;
 	padding-left:35px;
 }
+
+@media (max-width:1012px){
+.main p:last-child{
+	display:none;
+}
+@media (max-width:760px){
+.sidebar{
+	display:none;
+}
+.main{
+	width:100%;
+}
+@media (max-width:692px){
+nav li{
+	padding:15px 20px;
+}
+@media (max-width:612px){
+nav li{
+	padding:15px 10px;
+}
+@media (max-width:468px){
+.main p:nth-last-child(2){
+	display:none;
+}
+@media (max-width:464px){
+	nav{
+		display:none;
+	}
+@media (max-width:408px){
+header .logo{
+padding:0px;
+width:150px;
+}
+@media (max-width:320px){
+.main{
+	height:380px;
+}
+.main p{
+	padding:5px 20px;
+}
+header{
+	height:100px;
+}
+
+
+
